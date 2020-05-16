@@ -1,0 +1,337 @@
+{
+  "Version": "2",
+  "Product": "Visuino - Visual Arduino Programming",
+  "Units": [
+    {
+      "Name": "__OpenWireRootUnit__",
+      "*": [
+        {
+          "X": 256,
+          "Name": "Arduino",
+          "Instance": {
+            "AnalogInput": {
+              "*": [
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                },
+                {
+                  "+": "TArduinoAnalogInputChannel"
+                }
+              ]
+            },
+            "Serial": {
+              "*": [
+                {
+                  "+": "TArduinoHardwareSerial"
+                },
+                {
+                  "+": "TArduinoHardwareSerial"
+                },
+                {
+                  "+": "TArduinoHardwareSerial"
+                },
+                {
+                  "+": "TArduinoHardwareSerial"
+                }
+              ]
+            },
+            "+": "TArduinoBoard",
+            "AnalogInputReference": "Default",
+            "Modules": {
+              "*": [
+                {
+                  "+": "TArduinoEEPROMModule"
+                },
+                {
+                  "+": "TArduinoProcessorModule"
+                },
+                {
+                  "+": "TArduinoWatchdogTimerModule"
+                }
+              ]
+            },
+            "I2CChannels": {
+              "*": [
+                {
+                  "+": "TArduinoI2C"
+                }
+              ]
+            },
+            "Shields": {
+              "*": [
+                {
+                  "Text": {
+                    "BackgroundColor": -4144960,
+                    "Color": -16776961
+                  },
+                  "Orientation": "goRight",
+                  "+": "TArduinoTouchScreenTFTLCDShield",
+                  "BackgroundColor": 12632256,
+                  "Elements": {
+                    "*": [
+                      {
+                        "X": 187,
+                        "Name": "Icons",
+                        "+": "TArduinoColorGraphicsElementDrawBitmap",
+                        "Bitmap": {
+                          "Data": "wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/729vf+9vb3\/vb29\/729vf+9vb3\/vb29\/729vf+9vb3\/vb29\/729vf++vr7\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/vr6+\/7Gxsf9LS0v\/SUlJ\/0lJSf9JSUn\/SUlJ\/0lJSf9JSUn\/SUlJ\/0lJSf9KSkr\/U1NT\/7i4uP+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+6urr\/sbGx\/5GRkf9ISEj\/OTk5\/zU1Nf81NTX\/NTU1\/zU1Nf81NTX\/NTU1\/zU1Nf81NTX\/NTU1\/z4+Pv9PT0\/\/uLi4\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/3p6ev8AAAD\/AAAA\/1JSUv\/AwMD\/wMDA\/3t7e\/8AAAD\/AAAA\/01NTf\/AwMD\/wMDA\/3x9ff8AAAD\/AAAA\/0tLS\/\/AwMD\/wMDA\/4ODg\/8AAAD\/AAAA\/0lJSf\/AwMD\/wMDA\/4ODg\/8AAAD\/AAAA\/0NDQ\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/6ysrP+goKD\/oKCg\/6CgoP+goKD\/oKCg\/6CgoP+goKD\/oaGh\/7Kysv\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+7u7v\/T09P\/zs7O\/81NTX\/Pz8\/\/0pKSv9MTEz\/TExM\/0xMTP9MTEz\/TExM\/0xMTP9MTEz\/TExM\/0xMTP9ISEj\/QkJC\/0xMTP+2trb\/u7u7\/76+vv\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/56env8AAAD\/AAAA\/wAAAP8AAAD\/cXFx\/56fn\/8AAAD\/AAAA\/wAAAP8AAAD\/cHFx\/5+fn\/8CAgL\/AAAA\/wAAAP8AAAD\/YmJi\/6Ojo\/8AAAD\/AAAA\/wAAAP8AAAD\/YWFh\/6Ghof8AAAD\/AAAA\/wEBAf8AAAD\/YmJi\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/6CgoP8xMTH\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wcHB\/9ERET\/s7Oz\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+6urr\/TU1N\/zk5Of8dHR3\/Ghoa\/zw8PP+zs7P\/vLy8\/729vf++vr7\/vr6+\/76+vv++vr7\/vr6+\/76+vv+9vb3\/s7Oz\/0lJSf9DQ0P\/Q0ND\/0hISP+wsLD\/vr6+\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP9+fn7\/AAAA\/wAAAP8AAAD\/AAAA\/zo6Ov97e3v\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP94eHj\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP91dXX\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP93d3f\/AAAA\/wAAAP8AAAD\/AwQE\/zQ0NP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+Kior\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/6enp\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+5ubn\/YmJi\/0JCQv8uLi7\/Ghoa\/yoqKv8\/Pz\/\/S0tL\/2JiYv+0tLT\/vr6+\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/76+vv+1tbX\/SEhI\/zs7O\/88PDz\/SEhI\/7CwsP+9vb3\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/fn5+\/wAAAP8AAAD\/AAAA\/wAAAP85OTn\/e3t7\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/eHh4\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dXV1\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dXV1\/wAAAP8AAAD\/AAAA\/wUFBf80NDT\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/p6en\/zs7O\/8lJSX\/JSUl\/yUlJf8lJSX\/JSUl\/yUlJf8lJSX\/JSUl\/1FRUf+2trb\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+6urr\/XV1d\/0JCQv9FRUX\/QEBA\/y4uLv9AQED\/RUVF\/zk5Of85OTn\/SEhI\/7Gxsf+2trb\/vLy8\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/vr6+\/7a2tv+jo6P\/T09P\/0NDQ\/9GRkb\/sbGx\/729vf\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+vr6\/\/Kioq\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/JCQk\/09PT\/8AAAD\/AAAA\/wAAAP8AAAD\/Hh4e\/09QUP8AAAD\/AAAA\/wAAAP8AAAD\/ICAg\/1FRUf8AAAD\/AAAA\/wAAAP8AAAD\/Hh4e\/1JSUv8AAAD\/AAAA\/wAAAP8BAQH\/AAAA\/wcHB\/+ZmZn\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+2trb\/ra2t\/62trf+oqKj\/paWl\/6Wlpf+rq6v\/ra2t\/62trf+5ubn\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+8vLz\/UFBQ\/0JCQv9ISEj\/lpaW\/0lJSf81NTX\/SUlJ\/5aWlv9KSkr\/RkZG\/0NDQ\/8\/Pz\/\/QkJC\/21tbf+6urr\/vb29\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/7q6uv9YWFj\/RERE\/0VFRf+wsLD\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/jo6O\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AQEB\/wAAAP8AAAD\/SUlJ\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/76+vv++vr7\/vr6+\/76+vv++vr7\/vr6+\/76+vv+qqqr\/YGBg\/zw8PP9ERET\/f39\/\/7q6uv++vr7\/vb29\/7y8vP++vr7\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/ubm5\/0RERP84ODj\/ZWVl\/7q6uv9KSkr\/NTU1\/0pKSv+7u7v\/vLy8\/7i4uP9MTEz\/Pz8\/\/z4+Pv9ERET\/SUlJ\/0xMTP+1tbX\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/ubm5\/0ZGRv84ODj\/U1NT\/76+vv\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/46Ojv8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wEBAf8AAAD\/AAAA\/0hISP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7a2tv9ycnL\/bm5u\/25ubv9ubm7\/bm5u\/25ubv9ubm7\/RERE\/wAAAP8AAAD\/AAAA\/wAAAP9hYWH\/bm5u\/2xsbP9kZGT\/bm5u\/3t7e\/+QkJD\/qKio\/7i4uP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7m5uf9DQ0P\/ODg4\/4CAgP+8vLz\/SkpK\/zU1Nf9KSkr\/vb29\/8DAwP+\/v7\/\/ubm5\/7S0tP+Wlpb\/RERE\/zg4OP88PDz\/SkpK\/6Ojo\/+zs7P\/vLy8\/8DAwP\/AwMD\/wMDA\/7y8vP9LS0v\/PDw8\/0pKSv+2trb\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/UVFR\/wYGBv8AAAD\/AAAA\/wAAAP8AAAD\/ERER\/3V1df8AAAD\/AAAA\/wAAAP8AAAD\/Li4u\/3R0dP8AAAD\/AAAA\/wAAAP8AAAD\/Li4u\/3Fxcf8AAAD\/AAAA\/wAAAP8AAAD\/Ly8v\/3Fxcf8AAAD\/AAAA\/wAAAP8BAQH\/AQEB\/yoqKv+xsbH\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+xsbH\/JSUl\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/w0NDf9MTEz\/hISE\/7Kysv\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+2trb\/Q0ND\/zs7O\/+Wlpb\/vLy8\/0pKSv81NTX\/SkpK\/729vf\/AwMD\/wMDA\/8DAwP\/AwMD\/vLy8\/7CwsP9NTU3\/SkpK\/0BAQP85OTn\/QkJC\/5ycnP+5ubn\/vLy8\/7+\/v\/+\/v7\/\/tLS0\/0pKSv8\/Pz\/\/S0tL\/7u7u\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP9+fn7\/AAAA\/wAAAP8AAAD\/AAAA\/ycnJ\/97e3v\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP94eHj\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP91dXX\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP92dnb\/AAAA\/wAAAP8AAAD\/AwQE\/zQ0NP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/sbGx\/yUlJf8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP87Ozv\/jo6O\/7y8vP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+3t7f\/SkpK\/0NDQ\/9JSUn\/tra2\/729vf9KSkr\/NTU1\/0pKSv+9vb3\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/vr6+\/7a2tv9LS0v\/Q0ND\/0JCQv9DQ0P\/RERE\/0xMTP+3t7f\/vr6+\/729vf+Ghob\/OTk5\/0NDQ\/+4uLj\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/fn5+\/wAAAP8AAAD\/AAAA\/wAAAP85OTn\/e3t7\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/eHh4\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dXV1\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dnZ2\/wAAAP8AAAD\/AAAA\/wECAv80NDT\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7Gxsf8lJSX\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/w0NDf9wcHD\/uLi4\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/r6+v\/zw8PP9CQkL\/tLS0\/76+vv+9vb3\/SkpK\/zU1Nf9KSkr\/vb29\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/u7u7\/7i4uP+Ghob\/QkJC\/zk5Of9AQED\/SkpK\/1VVVf+wsLD\/rq6u\/0NDQ\/9CQkL\/cnJy\/7u7u\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/35+fv8AAAD\/AAAA\/wAAAP8AAAD\/OTk5\/3t7e\/8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3h4eP8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3V1df8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3Z2dv8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+xsbH\/JSUl\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/BwcH\/2lpaf+7u7v\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/6Ojo\/84ODj\/QkJC\/7i4uP\/AwMD\/vb29\/0pKSv81NTX\/SkpK\/729vf\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/u7u7\/7Gxsf+Li4v\/SkpK\/zs7O\/84ODj\/RERE\/21tbf9MTEz\/Pj4+\/z8\/P\/+wsLD\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP9+fn7\/AAAA\/wAAAP8AAAD\/AAAA\/zk5Of97e3v\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP94eHj\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP91dXX\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP92dnb\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/t7e3\/4CAgP9+fn7\/fn5+\/35+fv9+fn7\/fn5+\/35+fv88PDz\/AAAA\/wAAAP8AAAD\/AAAA\/2VlZf9+fn7\/fn5+\/4SEhP95eXn\/Wlpa\/xoaGv8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8HBwf\/gYGB\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+jo6P\/ODg4\/0JCQv+4uLj\/wMDA\/729vf9KSkr\/NTU1\/0pKSv+9vb3\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/vr6+\/7S0tP9MTEz\/SEhI\/0NDQ\/88PDz\/ODg4\/yoqKv81NTX\/kZGR\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/fn5+\/wAAAP8AAAD\/AAAA\/wAAAP87Ozv\/e3t7\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/eHh4\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dXV1\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/d3d3\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/v7+\/\/7+\/v\/+\/v7\/\/v7+\/\/7+\/v\/+\/v7\/\/b29v\/wAAAP8AAAD\/AAAA\/w0NDf+jo6P\/v7+\/\/7+\/v\/\/AwMD\/v7+\/\/7y8vP+vr6\/\/e3t7\/yAgIP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/yUlJf+oqKj\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/o6Oj\/zg4OP9CQkL\/uLi4\/8DAwP+9vb3\/SkpK\/zU1Nf9KSkr\/vb29\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/vLy8\/7e3t\/9FRUX\/IyMj\/xISEv8NDQ3\/MTEx\/5GRkf+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/35+fv8AAAD\/AAAA\/wAAAP8AAAD\/Ozs7\/3t7e\/8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3h4eP8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3V1df8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3d3d\/8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7CwsP9wcHD\/UFBQ\/1lZWf+Li4v\/vb29\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/76+vv+VlZX\/HR0d\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/bW1t\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/6Ojo\/84ODj\/QkJC\/7i4uP\/AwMD\/vb29\/0pKSv81NTX\/SkpK\/729vf\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/urq6\/7Gxsf98fHz\/RERE\/y8vL\/8lJSX\/HR0d\/zExMf+RkZH\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP9+fn7\/AAAA\/wAAAP8AAAD\/AAAA\/zs7O\/97e3v\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP94eHj\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP91dXX\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP93d3f\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/4KCgv8HBwf\/AAAA\/wAAAP8AAAD\/AAAA\/yUlJf+ysrL\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+jo6P\/ODg4\/0JCQv+4uLj\/wMDA\/729vf9KSkr\/NTU1\/0pKSv+9vb3\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/76+vv+7u7v\/uLi4\/11dXf8\/Pz\/\/OTk5\/0JCQv9LS0v\/SkpK\/zg4OP82Njb\/kZGR\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/fn5+\/wAAAP8AAAD\/AAAA\/wAAAP87Ozv\/e3t7\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/eHh4\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dXV1\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/d3d3\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+1tbX\/Ojo6\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/k5OT\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/o6Oj\/zg4OP9CQkL\/uLi4\/8DAwP+9vb3\/SkpK\/zU1Nf9KSkr\/vb29\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/76+vv+0tLT\/SUlJ\/0NDQ\/9DQ0P\/QkJC\/0RERP9NTU3\/ubm5\/7a2tv9CQkL\/ODg4\/5aWlv+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/35+fv8AAAD\/AAAA\/wAAAP8AAAD\/Ozs7\/3t7e\/8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3h4eP8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3V1df8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3d3d\/8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/3Nzc\/8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/3Fxcf\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/6Ojo\/84ODj\/QkJC\/7i4uP\/AwMD\/vb29\/0pKSv81NTX\/SkpK\/729vf\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/u7u7\/6ioqP9PT0\/\/SUlJ\/z4+Pv85OTn\/RERE\/7CwsP+5ubn\/vLy8\/7m5uf9tbW3\/Q0ND\/0NDQ\/+ysrL\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP9+fn7\/AAAA\/wAAAP8AAAD\/AAAA\/zk5Of97e3v\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP94eHj\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP91dXX\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP92dnb\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+UlJT\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP9VVVX\/vb29\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+wsLD\/Pj4+\/0JCQv+xsbH\/vb29\/729vf9KSkr\/NTU1\/0pKSv+9vb3\/wMDA\/8DAwP\/AwMD\/wMDA\/76+vv+5ubn\/tLS0\/3d3d\/9CQkL\/NjY2\/z4+Pv9MTEz\/o6Oj\/7S0tP+9vb3\/wMDA\/7+\/v\/+xsbH\/QEBA\/0NDQ\/+urq7\/vLy8\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/fn5+\/wAAAP8AAAD\/AAAA\/wAAAP85OTn\/e3t7\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/eHh4\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dXV1\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dnZ2\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/pqam\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/QkJC\/7m5uf\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/ubm5\/01NTf9DQ0P\/RUVF\/7S0tP+8vLz\/SkpK\/zU1Nf9KSkr\/vb29\/8DAwP\/AwMD\/vr6+\/7y8vP+2trb\/SkpK\/z8\/P\/8\/Pz\/\/RERE\/0hISP9NTU3\/t7e3\/7+\/v\/\/AwMD\/wMDA\/8DAwP++vr7\/fHx8\/zk5Of9ERET\/uLi4\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/35+fv8AAAD\/AAAA\/wAAAP8AAAD\/OTk5\/3t7e\/8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3h4eP8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3V1df8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3Z2dv8AAAD\/AAAA\/wAAAP8BAQH\/NDQ0\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/6urq\/8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/zExMf+4uLj\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+3t7f\/Q0ND\/zk5Of+Ghob\/vLy8\/0pKSv81NTX\/SkpK\/729vf+\/v7\/\/vLy8\/6Ojo\/9KSkr\/RkZG\/0JCQv8+Pj7\/Q0ND\/5ycnP+7u7v\/vb29\/7+\/v\/\/AwMD\/wMDA\/8DAwP++vr7\/sbGx\/0hISP9CQkL\/TU1N\/7y8vP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/6ysrP9cXFz\/AAAA\/wAAAP8AAAD\/AAAA\/zo6Ov97e3v\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP94eHj\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP91dXX\/AAAA\/wAAAP8AAAD\/AAAA\/zQ0NP92dnb\/AAAA\/wAAAP8AAAD\/AAAA\/yQkJP+hoaH\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+6urr\/oKCg\/6CgoP+dnZ3\/mpqa\/6CgoP+jo6P\/vb29\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/u7u7\/0lJSf88PDz\/TExM\/7S0tP9KSkr\/NTU1\/0pKSv+1tbX\/r6+v\/2lpaf9ERET\/ODg4\/zs7O\/9KSkr\/srKy\/7e3t\/+8vLz\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+9vb3\/srKy\/0lJSf9CQkL\/U1NT\/7m5uf+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/6ysrP8fHx\/\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8bGxv\/PT09\/wAAAP8AAAD\/AAAA\/wAAAP8UFBT\/Pz8\/\/wAAAP8AAAD\/AAAA\/wAAAP8UFBT\/Pj4+\/wAAAP8AAAD\/AAAA\/wAAAP8UFBT\/QkJC\/wAAAP8AAAD\/AAAA\/wABAf8AAAD\/AwMD\/5OTk\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+8vLz\/enp6\/2pqav+4uLj\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/76+vv+zs7P\/SUlJ\/z8\/P\/9LS0v\/SEhI\/zMzM\/9FRUX\/SkpK\/zw8PP87Ozv\/RERE\/0xMTP9lZWX\/tra2\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP++vr7\/srKy\/0ZGRv9DQ0P\/VVVV\/7i4uP+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+Ojo7\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8BAQH\/AAAA\/wAAAP9ISEj\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+9vb3\/fn5+\/w0NDf8HBwf\/a2tr\/7q6uv\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/vr6+\/1NTU\/84ODj\/RERE\/0ZGRv8uLi7\/NTU1\/0JCQv9DQ0P\/RUVF\/3Jycv+7u7v\/v7+\/\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP++vr7\/sLCw\/0hISP9ERET\/T09P\/7m5uf+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/jo6O\/wAAAP8AAAD\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8BAQH\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8DBAT\/AAAA\/wAAAP8AAAD\/AAAA\/wAAAP8BAQH\/AAAA\/wAAAP8AAAD\/AAAA\/wECAv8BAQH\/AAAA\/wAAAP8AAAD\/AwMD\/wAAAP8AAAD\/TU1N\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+\/v7\/\/i4uL\/xISEv8AAAD\/AAAA\/wcHB\/93d3f\/vb29\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/+urq7\/QkJC\/0JCQv88PDz\/JSUl\/y8vL\/9GRkb\/s7Oz\/7q6uv+9vb3\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+9vb3\/sLCw\/0hISP9DQ0P\/VVVV\/7q6uv+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP9oaGj\/BgYG\/wAAAP8AAAD\/AAAA\/wAAAP84ODj\/enp6\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/d3d3\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dXV1\/wAAAP8AAAD\/AAAA\/wAAAP80NDT\/dXV1\/wAAAP8AAAD\/AAAA\/xASEv8BAQH\/ODg4\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/o6Oj\/x0dHf8AAAD\/AQEB\/wEBAf8AAAD\/BwcH\/5WVlf\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/u7u7\/5ycnP9DQ0P\/MTEx\/y4uLv9AQED\/WFhY\/7S0tP+9vb3\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/v7+\/\/7u7u\/+1tbX\/rq6u\/0ZGRv9DQ0P\/ZWVl\/7m5uf+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/35+fv8AAAD\/AAAA\/wAAAP8AAAD\/OTk5\/3t7e\/8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3h4eP8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3V1df8AAAD\/AAAA\/wAAAP8AAAD\/NDQ0\/3V1df8AAAD\/AAAA\/wAAAP8QEhL\/NDQ0\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/vLy8\/1hYWP8AAAD\/AAAA\/wEBAf8BAQH\/AQEB\/wAAAP9AQED\/tra2\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+8vLz\/i4uL\/0pKSv9GRkb\/QEBA\/z4+Pv9ERET\/r6+v\/7u7u\/+8vLz\/vLy8\/7y8vP+8vLz\/vLy8\/7m5uf9NTU3\/QEBA\/z4+Pv9ERET\/WFhY\/7m5uf\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+AgID\/AAAA\/wQEBP8AAAD\/AAAA\/0BAQP9+fn7\/AAAA\/wAAAP8AAAD\/AAAA\/z09Pf99fX3\/AAAA\/wAAAP8AAAD\/AAAA\/zo6Ov9+fn7\/AAAA\/wAAAP8AAAD\/AAAA\/zo6Ov9\/f3\/\/AAAA\/wAAAP8AAAD\/AwMD\/zg4OP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/6urq\/8WFhb\/AAAA\/wEBAf8AAAD\/AAAA\/wEBAf8AAAD\/BwcH\/5qamv\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/76+vv+8vLz\/tLS0\/0lJSf8\/Pz\/\/QEBA\/0VFRf9ISEj\/SEhI\/0hISP9ISEj\/SEhI\/0hISP9GRkb\/Q0ND\/z4+Pv9AQED\/VVVV\/7u7u\/+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/rq6u\/wMDA\/8KCgr\/HyAg\/wAAAP+Pj4\/\/t7e3\/wQEBP8NDQ3\/AgIC\/wAAAP+Pj4\/\/t7e3\/wcICP8CAgL\/AAAA\/wAAAP+Pj4\/\/t7e3\/wUFBf8FBwf\/BQUF\/wAAAP+RkZH\/tLS0\/wUFBf8EBAT\/ICAg\/wAAAP+NjY3\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+rq6v\/EhIS\/wAAAP8BAQH\/AAAA\/wAAAP8BAQH\/AAAA\/wAAAP+ampr\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/76+vv+5ubn\/tLS0\/2VlZf9AQED\/NjY2\/zU1Nf81NTX\/NTU1\/zU1Nf81NTX\/ODg4\/0ZGRv+wsLD\/tra2\/7u7u\/+\/v7\/\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+oqKj\/EBAQ\/wcHB\/+Kior\/wMDA\/8DAwP+np6f\/FhYW\/wEBAf+Kior\/wMDA\/8DAwP+mpqb\/FxcX\/wAAAP+Hh4f\/wMDA\/8DAwP+rq6v\/FxcX\/wEBAf+Hh4f\/wMDA\/8DAwP+rq6v\/GBgY\/wEBAf+EhIT\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/u7u7\/1ZWVv8AAAD\/AAAA\/wEBAf8BAQH\/AAAA\/wAAAP8+Pj7\/tbW1\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+6urr\/nJyc\/1JSUv9QUFD\/UFBQ\/1BQUP9QUFD\/UFBQ\/1tbW\/+ysrL\/vr6+\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP+rq6v\/SEhI\/wcHB\/8AAAD\/AAAA\/wAAAP82Njb\/oKCg\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7+\/v\/++vr7\/vr6+\/76+vv++vr7\/vr6+\/76+vv+\/v7\/\/v7+\/\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/7a2tv+SkpL\/dHR0\/3Jycv+MjIz\/srKy\/7+\/v\/\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP\/AwMD\/wMDA\/8DAwP8=",
+                          "Width": 130,
+                          "Height": 47
+                        },
+                        "Y": 2
+                      },
+                      {
+                        "@": [
+                          {
+                            "PinName": "Shields.Item [ 0 ].Elements.Item [ 1 ].Text",
+                            "@": "Text",
+                            "+": "TOWStringSinkPinBinding",
+                            "Component": "Arduino"
+                          }
+                        ],
+                        "Name": "Temperature display",
+                        "+": "TArduinoColorGraphicsElementDrawText"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "Digital": {
+              "*": [
+                {
+                  "+": "TArduinoAdditionalDigitalSerial0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial0Channel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMInterruptChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMInterruptChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial3Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial3Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial2Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial2Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial1InterruptChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial1InterruptChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalI2C0InterruptChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalI2C0InterruptChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                }
+              ]
+            },
+            "SPIChannels": {
+              "*": [
+                {
+                  "+": "TArduinoSPI"
+                }
+              ]
+            },
+            "BoardType": "Arduino Mega 2560"
+          },
+          "Type": "Component",
+          "Y": 256
+        },
+        {
+          "X": 784,
+          "Name": "CompareValue1",
+          "Instance": {
+            "+": "TArduinoCompareValue"
+          },
+          "Type": "Component",
+          "Y": 992
+        }
+      ],
+      "Type": "Diagram",
+      "Selection": [
+        "Arduino"
+      ]
+    }
+  ],
+  "Content": "OpenWire Diagram"
+}
