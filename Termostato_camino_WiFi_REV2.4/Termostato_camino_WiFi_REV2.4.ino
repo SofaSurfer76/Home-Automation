@@ -62,8 +62,8 @@ char lastnamebuf[32] = "null";
 File root;
 int pathlen;
 
-char* ssid = "FASTWEB-XL5NIY";    
-char* password = "DYPY0MW849";        
+char* ssid = "FASTWEB-xxxxxx";    
+char* password = "xxxxxxxxxx";        
 IPAddress ip(192,168,1,101);  
 IPAddress gateway(192,168,1,254);
 IPAddress subnet(255,255,255,0);
@@ -214,11 +214,11 @@ if (diag == 1){
 
     LastTempAttRisc = TempAttRisc;
     
-
+}
 
 //////////////////////////////////////////////////////////////////   START LOOP
     
-}
+
 
 void loop()
 {
@@ -371,7 +371,7 @@ if (diag == 1) {
         noTone(buzzer);
       }
       
- ///////////////  SELEZIONE PULSANTE RISCALDAMENTO  ///////////////
+ ///////////////   PULSANTE SELEZIONE RISCALDAMENTO  ///////////////
 
 //StatoPulsSelRisc = digitalRead(IselAttRis); // Simulazione 
 
@@ -382,7 +382,7 @@ if (StatoPulsSelRisc == 1){
 }
 
 
-////////  LETTURA PULSANTE SELEZIONE ACQUA SANITARI ////////
+////////////////  PULSANTE SELEZIONE ACQUA SANITARI  //////////////
 
 //StatoPulsSelSan = digitalRead(IselAcqSan); <<-- Simulazione
 if (StatoPulsSelSan == 1) {
@@ -450,7 +450,7 @@ StatoPulsIncr = 0;
 StatoPulsDecr = 0;
 StatoPulsAlarmOF = 0;
 
-/*
+/* TODO
 ////////////  Icona WiFi  ///////////////
 
 if ( WiFi.status() == WL_CONNECTED) showBMP(" Wifi_ON", 180, 280);
